@@ -1,0 +1,92 @@
+/* Navbar Styles */
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px rgb(226, 226, 226);
+  background-color: black;
+  color: white;
+}
+
+.navTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  width: 600px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+
+/* Login Box Styles */
+.formContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f7f7f7; */
+  background-image: linear-gradient(to bottom, #34495e, #2c3e50);
+  /* Use linear gradient for a smoother background transition */
+}
+
+.loginBox {
+  border: 2px solid #3498db;
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.loginBoxHr {
+  border: none;
+  border-top: 1px solid #3498db;
+  margin: 15px 0;
+}
+
+.loginBoxHeading {
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.loginBoxInput {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.loginBoxButton {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginBoxButton:hover {
+  background-color: #2980b9;
+}
+
+.loginBoxError {
+  text-align: left;
+  margin-top: 5px;
+  color: #e74c3c;
+}
